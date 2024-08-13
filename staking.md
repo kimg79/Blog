@@ -1,6 +1,6 @@
 # staking
 
-## 1.
+## 1.fp列表
 ```
 GET    /v1/finality-providers
 ```
@@ -28,7 +28,7 @@ pagination_key | 页码
 
 ```
 
-## 2
+## 2 stake 数据概览
 ```
 GET    /v1/stats
 ```
@@ -51,7 +51,7 @@ GET    /v1/stats
 }
 ```
 
-## 3.
+## 3. 跟api版本相关的一组数据，比如质押池还剩多少，区块高度判断
 ```
 GET    /v1/global-params
 ```
@@ -123,7 +123,7 @@ GET    /v1/global-params
 
 ```
 
-## 4.
+## 4. 质押记录 和状态
 ```
 GET    /v1/staker/delegations?pagination_key=&staker_btc_pk=0609c4384ee7bb3c32e860c41b1c90fc33f2b5a1c6e7ddfafb561795255012d1
 ```
